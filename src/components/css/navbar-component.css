@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+
 .navbar {
-    background-color: #131618;
+    font-family: 'Grenze Gotisch', sans-serif;
+    background-color: #394041;
 }
 
 .navbar-brand {
-    color: #d5d4c9;
+    font-size: xx-large;
+    color: #eaeade;
+}
+
+.navitem {
+    font-size: larger;
+    color: #eaeade;
+}
+
+.navitem:hover {
+    font-size: x-large;
+    color: #eaeade;
+    text-decoration: none;
 }
