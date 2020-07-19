@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 .header {
+    font-family: 'Arvo', sans-serif;
     background-color: #394041;
     color: #eaeade;
     margin-top: 70px;
