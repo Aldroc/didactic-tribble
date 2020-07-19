@@ -25,7 +25,7 @@ export default class Jumbo extends Component {
                             <h4>Sample text to promote product/company</h4><br />
                             <div className = "row align-items-center justify-content-center">
                                 <div className = "col-auto">
-                                    <Button className = "button col-offset-6" onClick = { this.onClick }>Check Out Our Product!</Button>
+                                    <Button className = "button" onClick = { this.onClick }>Check Out Our Product!</Button>
                                 </div>
                             </div>
                         </div>
