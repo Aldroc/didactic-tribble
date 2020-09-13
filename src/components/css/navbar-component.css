@@ -2,21 +2,17 @@
 
 .navbar {
     font-family: 'Dosis', sans-serif;
-    background-color: #1b1a20;
-}
-
-.navbar-brand {
-    font-size: xx-large;
-    color: #eaeade;
+    background-color: white;
+    text-align: center;
 }
 
 .navitem {
     font-size: larger;
-    color: #eaeade;
+    color: #000000;
 }
 
 .navitem:hover {
     font-size: x-large;
-    color: #eaeade;
+    color: #ff9525;
     text-decoration: none;
 }

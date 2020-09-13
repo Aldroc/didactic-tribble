@@ -17,15 +17,15 @@ export default class Jumbo extends Component {
         return(
             <Jumbotron className = "header">
                 <div className = "container">
-                    <div className = "row align-items justify-content-center align-items-center">
-                        <div className = "col-12 col-sm-4">
-                            <h2>Sample Logo</h2>
+                    <div className = "row justify-content-around align-items-center">
+                        <div className = "col-auto">
+                            <img src = "images/Final.png" alt = "Eternal Aroma Logo" height = "200px" width = "160px" />
                         </div>
                         <div className = "col-auto">
-                            <h4>Sample text to promote product/company</h4><br />
+                            <h1 className = "tagline">Enchanting Fragrance</h1><br />
                             <div className = "row align-items-center justify-content-center">
                                 <div className = "col-auto">
-                                    <Button className = "button" onClick = { this.onClick }>Check Out Our Product!</Button>
+                                    <Button className = "button" onClick = { this.onClick }>Lorem Ipsum</Button>
                                 </div>
                             </div>
                         </div>
