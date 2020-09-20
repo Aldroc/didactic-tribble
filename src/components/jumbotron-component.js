@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 import './css/jumbotron-component.css';
 
 export default class Jumbo extends Component {
     constructor(props){
         super(props);
-
-        this.onClick = this.onClick.bind(this);
-    }
-
-    onClick() {
-        console.log('onClick Event Generated')
     }
 
     render(){
@@ -23,11 +17,6 @@ export default class Jumbo extends Component {
                         </div>
                         <div className = "col-auto">
                             <h1 className = "tagline">Enchanting Fragrance</h1><br />
-                            <div className = "row align-items-center justify-content-center">
-                                <div className = "col-auto">
-                                    <Button className = "button" onClick = { this.onClick }>Lorem Ipsum</Button>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>    

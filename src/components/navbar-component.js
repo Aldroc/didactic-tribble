@@ -19,8 +19,8 @@ const Navigationbar = (props) => {
     const toggle = () => setIsOpen(!isOpen);
     return(
         <Navbar className = "navbar navbar-expand-lg fixed-top navbar-light">
-            <NavbarBrand href = '/' className = 'navbar-brand'><img src = "images/Final.png" alt="Eternal Aroma Logo" height="50px" width="40px" /></NavbarBrand>
             <NavbarToggler onClick = {toggle} />
+            <NavbarBrand href = '/' className = 'navbar-brand'><img src = "images/Final.png" alt="Eternal Aroma Logo" height="50px" width="40px" /></NavbarBrand>
             <Collapse isOpen = {isOpen} navbar>
                 <Nav className = "mr-auto" navbar>
                     <NavItem>

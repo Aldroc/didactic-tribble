@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.about_head{
+    font-family: 'Dosis', sans-serif;
+    color: #8cc836;
+}
+
+.aboutus{
+    font-family: 'Arvo', sans-serif;
+}
