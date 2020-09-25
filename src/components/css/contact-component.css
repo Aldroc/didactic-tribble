@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.contact_head{
+    font-family: 'Dosis', sans-serif;
+    color: #8cc836;
+}
+
+.form {
+    font-family: 'Arvo', sans-serif;
+}
+
+.contact_para {
+    font-family: 'Arvo', sans-serif;
+}
+
+.btn-block {
+    background-color: #7fa844;
+}

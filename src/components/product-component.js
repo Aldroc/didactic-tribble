@@ -15,7 +15,7 @@ export default class Product extends Component {
     render(){
         return(
             <div className = "container">
-                <div className = "row justify-content-center align-items-center">
+                <div className = "row justify-content-center align-items-center mb-3">
                     <div className = "col-auto">
                         <h2 className = "heading">Our Products</h2>
                     </div>
